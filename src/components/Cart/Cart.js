@@ -18,8 +18,9 @@ const Cart = (props) => {
             <h5>Total Salary: $ <span className="text-danger fw-bold">{total}</span></h5>
             <div className="my-2">
                 {
-                    cart.map(engineer => <div className="d-flex my-2 rounded-3 bg-blue"><img className="w-50" src={engineer.image} alt="" />
-                        <p className="text-white m-auto ">{engineer.name} </p></div>
+                    cart.map(engineer => <div key={engineer.id} className="d-flex my-2 rounded-3 bg-blue">
+                        <img className="w-50" src={engineer.image} alt="" />
+                        <p className="text-white m-auto ">{engineer.name}</p></div>
                     )
                 }
             </div>

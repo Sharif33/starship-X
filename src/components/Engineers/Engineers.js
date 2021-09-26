@@ -17,7 +17,7 @@ const Engineers = () => {
     }, [])
     // Add button cart handler
     const cartHandler = (engineer) => {
-        const newCart = [...cart, engineer];
+        const newCart = [...cart, engineer]
         setCart(newCart);
     }
 
