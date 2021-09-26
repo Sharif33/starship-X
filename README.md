@@ -2,7 +2,7 @@
 
 ### https://starship-x-sharif-33.netlify.app/
 
-### Benefits of this project
+## Benefits of this project:
 - Paid Holidays / Vacation. Employees: 202.
 - Paid Sick Leave. Employees: 154.
 - Casual Dress/Atmosphere. Employees: 151.
