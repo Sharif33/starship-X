@@ -3,10 +3,9 @@
 ### https://starship-x-sharif-33.netlify.app/
 
 ## Benefits of this project:
-- Paid Holidays / Vacation. Employees: 202.
-- Paid Sick Leave. Employees: 154.
-- Casual Dress/Atmosphere. Employees: 151.
-- 401(k) Employees: 141.
-- Life Insurance/Disability. Employees: 101.
-- Free Drinks/Coke/Juice/Water. Employees: 87.
-- Gym / Health Club / Fitness Membership. Employees: 82.
+- Paid Holidays / Vacation.
+- Paid Sick Leave.
+- Casual Dress/Atmosphere.
+- Life Insurance/Disability.
+- Free Drinks/Coke/Juice/Water.
+- Gym / Health Club / Fitness Membership.
