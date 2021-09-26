@@ -2,7 +2,7 @@
 
 ### https://starship-x-sharif-33.netlify.app/
 
-## Benefits of this project:
+## Engineers benefits of this project:
 - Paid Holidays / Vacation.
 - Paid Sick Leave.
 - Casual Dress/Atmosphere.
