@@ -2,12 +2,13 @@ import React from 'react';
 import './Engineer.css'
 
 const Engineer = (props) => {
-    const { name, age, role, image, salary, country, contact } = props.engineer;
+    // destructuring
+    const { name, age, role, image, salary, country, contact } = props?.engineer;
     return (
         <div>
 
             <div className="col">
-                <div className="card shadow bg-light rounded-3">
+                <div className="card shadow bg-light rounded-3 border-0 eng-hover">
                     <img className="card-img-top" src={image} alt="" />
                     <div className="card-body">
                         <h3 className="card-title fw-bold text-center">{name}</h3>
@@ -17,14 +18,14 @@ const Engineer = (props) => {
                         <h5 className="text-secondary">Salary: <span className="fw-bold text-danger">${salary}</span> <small>/Annual</small></h5>
                         <p>Contact: <span className="text-primary">{contact}</span></p>
                         <div className="text-center">
-                            <button onClick={() => props.cartHandler(props.engineer)} className="btn btn-purple"><i className="fas fa-plus-square"></i> Add to Hire</button>
+                            <button onClick={() => props.cartHandler(props.engineer)} className="btn btn-purple"><i className="fas fa-user-plus"></i> Hire Me</button>
                         </div>
                         <div>
-                            <h3 className="text-primary text-center">
-                                <i className="fab fa-facebook-square mx-2 mt-2"></i>
-                                <i className="fab fa-linkedin mx-2 mt-2"></i>
-                                <i className="fab fa-github-square mx-2 mt-2"></i>
-                                <i className="fab fa-twitter-square mx-2 mt-2"></i>
+                            <h3 className="text-secondary text-center">
+                                <i className="fab fa-facebook-square mx-2 mt-2 icons"></i>
+                                <i className="fab fa-linkedin mx-2 mt-2 icons"></i>
+                                <i className="fab fa-github-square mx-2 mt-2 icons"></i>
+                                <i className="fab fa-twitter-square mx-2 mt-2 icons"></i>
                             </h3>
                         </div>
                     </div>

@@ -1,7 +1,23 @@
 .btn-purple{
     background-color: #8B5CF6;
     color: white;
+    border:  1px solid #8B5CF6;
 }
+.btn-purple:hover{
+    background-color: white;
+    color:  #8B5CF6;
+    border: 1px solid #8B5CF6;
+    transition: 0.3s ease;
+}
+
 .text-purple{
     color: #8B5CF6;
+}
+.eng-hover:hover{
+    transform: scale(1.03);
+    transition: 0.6s ease;
+}
+
+.icons:hover{
+color: steelblue;
 }

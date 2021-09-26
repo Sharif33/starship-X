@@ -15,7 +15,7 @@ const Engineers = () => {
             .then(res => res.json())
             .then(data => setEngineers(data))
     }, [])
-    // Add to cart handler
+    // Add button cart handler
     const cartHandler = (engineer) => {
         const newCart = [...cart, engineer];
         setCart(newCart);
